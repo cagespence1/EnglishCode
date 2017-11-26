@@ -1,0 +1,7 @@
+define integer variable foo as 7,
+define integer variable koo as 4,
+
+if 5 is less than 3:
+    if variable foo is less than equal to 3: .
+.
+

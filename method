@@ -1,0 +1,4 @@
+define integer variable x as 1
+define string variable y as "werwer"
+define boolean variable cc as false
+define function test, returning integer, using integer variable a, integer variable b: return variable a.

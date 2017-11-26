@@ -1,0 +1,39 @@
+define integer variable foo as 7,
+define integer variable koo as 4,
+define string variable bar as "sdgfs",
+define boolean variable bool as true,
+
+define function addTwo, returning integer, using integer variable input:
+    postincrement variable input,
+    postincrement variable input,
+    define integer variable output as 3,
+    return variable output.
+
+define function doNothing, returning boolean: return false.
+
+function addTwo using variable foo
+function doNothing
+
+if variable foo is less than variable koo: postincrement variable foo.
+
+if variable foo is less than variable koo: postincrement variable foo.
+    otherwise postincrement variable koo,
+
+if variable foo is less than variable koo: preincrement variable foo.
+    otherwise if variable foo is equal to variable koo: predecrement variable koo.
+    otherwise if variable foo is more than variable koo: postincrement variable koo.
+    otherwise : postdecrement variable foo.
+
+if variable bool :.
+
+if 5 is less than 5 or 5 is less than equal to 6: print "something".
+
+if function doNothing is equal to false :.
+
+while variable bool remains : set variable bool to false.
+
+start from 345, repeat until iteration amount is more than 3: print variable foo.
+
+(variable foo multiplied by (variable foo multiplied by 6) multiplied by 7 multiplied by 6 multiplied by variable foo) divided by 0..
+
+if 5 is equal to 5:.

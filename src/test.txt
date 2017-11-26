@@ -1,0 +1,26 @@
+define integer variable foo as 7
+define integer variable koo as 4
+define string variable bar as "sdgfs"
+define boolean variable bool as true
+
+function addTwo using variable foo.
+function doNothing.
+
+define function addTwo, returning integer, using integer variable input
+    :postincrement variable input postincrement variable input return variable input.
+
+define function doNothing, returning boolean: return false.
+
+if variable foo less than variable koo: postincrement variable foo.
+
+if variable foo less than variable koo: postincrement variable foo. otherwise: postincrement variable koo.
+
+if variable foo less than variable koo: preincrement variable foo.
+    otherwise if variable foo equal to variable koo: predecrement variable koo.
+    otherwise if variable foo more than variable koo: postincrement variable koo.
+    otherwise : postdecrement variable foo.
+
+define integer variable i as 0
+start from variable i, repeat until running equal to 5 iterations, increment by 1 :.
+
+if 5 is more than true:.
